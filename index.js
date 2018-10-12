@@ -1,4 +1,4 @@
-const winston = require(winston)
+const winston = require('winston')
 const moment = require('moment-timezone')
 
 const LOG_LEVEL = {
