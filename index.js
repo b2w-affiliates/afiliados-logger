@@ -21,6 +21,8 @@ const consoleOptions = {
   }
 }
 
-module.exports = new winston.Logger({
-  transports: [ new winston.transports.Console(consoleOptions) ],
-})
+module.exports = {
+  logger: new winston.Logger({
+    transports: [ new winston.transports.Console(consoleOptions) ],
+  })
+}
